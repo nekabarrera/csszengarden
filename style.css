@@ -59,13 +59,3 @@ footer {
     flex-basis: 0;
     flex-grow: 999;
   }
-
-.intro {
-    float: left;
-    overflow: auto;
-}
-
-article {
-    float: left;
-    overflow: auto;
-}
