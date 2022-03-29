@@ -1,0 +1,71 @@
+
+#css-zen-garden {
+    background-color:blanchedalmond;
+    font-family: sans-serif;
+}
+
+.zen-garden1{
+    text-align: left;
+    font-size: 1.5em;
+    color: cadetblue;
+}
+
+.zen-garden2{
+    font-size: 1.0em;
+    color:cadetblue;
+}
+
+
+
+
+.fantasy {
+    font-family: fantasy;
+    font-size: 1.3em;
+    color:brown;
+}
+
+
+footer {
+    
+      height: 10px;
+      padding-top: 15px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      border-style: solid;
+      border-width: 1px;
+      font-family: 'Inconsolata', monospace;
+      font-size: 1em;
+      text-align: center;
+      display:flex;
+      bottom: 0;
+      flex-direction: row;
+      justify-content: center;
+      gap: 100px;
+      
+}
+
+.page-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .sidebar {
+    flex-basis: 20rem;
+    flex-grow: 1;
+  }
+  
+  .main.supporting{
+    flex-basis: 0;
+    flex-grow: 999;
+  }
+
+.intro {
+    float: left;
+    overflow: auto;
+}
+
+article {
+    float: left;
+    overflow: auto;
+}
